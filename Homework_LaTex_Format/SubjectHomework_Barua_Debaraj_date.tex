@@ -1,0 +1,46 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{cite}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{<date>}
+\lhead{Assignment <number>}
+\rfoot{Page \thepage}
+ 
+\begin{document}
+\begin{titlepage}
+\centering
+
+	{\scshape\LARGE <subject>\par}
+	
+	{\scshape\Large Assignment: <number>\par}
+
+	\vfill
+	
+	\vfill
+	{\Large\itshape Debaraj Barua\par}
+	\vfill
+		
+	{\large <date>\par}
+\end{titlepage}
+\tableofcontents
+
+\newpage
+\section*{\underline{Answer:1}}
+\addcontentsline{toc}{section}{Answer:1}
+\begin{center}
+\underline{\textbf{CiteSeer}} ~\cite{Nobody06}
+\end{center}
+
+\newpage
+
+\bibliography{references.bib}
+\bibliographystyle{plain}
+
+\end{document}
